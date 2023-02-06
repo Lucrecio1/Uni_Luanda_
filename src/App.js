@@ -7,7 +7,8 @@ import ComA from './componentes/ComA';
 import './App.css';
 import Adicao from './componentes/adicao';
 import UsandoCss from './componentes/usando_css';
-import Tempo from './componentes/tempo';
+import State from './componentes/state';
+import Botao from './componentes/Botao';
 
 function App() {
   return (
@@ -30,7 +31,10 @@ function App() {
       <Adicao a={3} b={3}/>
       <hr/>
       <UsandoCss />
-      <Tempo/>
+      <hr/>
+      <State/>
+      <hr/>
+      <Botao/>
     </div>
 
     </>
